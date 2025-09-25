@@ -28,19 +28,6 @@ A real-time live polling application built with React, Express, Socket.IO, and R
     *   CORS (Cross-Origin Resource Sharing)
     *   Dotenv (Environment Variables)
 
-## 📋 Assignment Requirements Met
-
-*   ✅ **Live Polling System** with two personas (Teacher/Student).
-*   ✅ **Teacher Features**: Create polls, view live results, ask new questions based on answer status.
-*   ✅ **Student Features**: Enter name, submit answers, view results, 60s timer.
-*   ✅ **Technology Stack**: React (with Redux), Express, Socket.IO.
-*   ✅ **Functional System**: All core features implemented and working.
-*   ✅ **Hosting**: Instructions for Vercel (Frontend) and Render/Railway (Backend) provided.
-*   ✅ **Poll Results**: Both teacher and student can view results.
-*   ✅ **Figma Compliance**: UI matches design precisely.
-*   ✅ **Good to Have**: Configurable time limit, student removal, well-designed UI.
-*   ✅ **Bonus Features**: Chat popup, past poll history (in-memory).
-
 ## 📁 Project Structure
 
 ```
@@ -184,15 +171,3 @@ intervieu-polling-system/
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👨‍💻 Author
-
-[Your Name]
-
----
-
-## 🚨 Notes
-
-*   This application is designed for demonstration purposes based on the Intervue assignment requirements.
-*   In-memory state management is used for simplicity. For production, persistent storage (e.g., a database) would be necessary for features like poll history.
-*   Security measures like authentication, authorization, and input validation are minimal for this demo but crucial for a production system.
-```

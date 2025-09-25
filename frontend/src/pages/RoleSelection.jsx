@@ -1,3 +1,4 @@
+// frontend/src/pages/RoleSelection.jsx
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
@@ -28,16 +29,20 @@ export default function RoleSelection() {
         <div
           onClick={() => setSelectedRole('student')}
           className={`p-6 border-2 rounded-lg cursor-pointer w-64 transition-all ${
-            selectedRole === 'student' ? 'border-primary-7765DA bg-primary-7765DA/10' : 'border-gray-300'
+            selectedRole === 'student'
+              ? 'border-primary-7765DA bg-primary-7765DA/10'
+              : 'border-gray-300 bg-white'
           }`}
         >
           <h3 className="font-bold mb-2">I'm a Student</h3>
-          <p className="text-sm text-gray-600">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+          <p className="text-sm text-gray-600">Submit answers and view live poll results in real-time.</p>
         </div>
         <div
           onClick={() => setSelectedRole('teacher')}
           className={`p-6 border-2 rounded-lg cursor-pointer w-64 transition-all ${
-            selectedRole === 'teacher' ? 'border-primary-7765DA bg-primary-7765DA/10' : 'border-gray-300'
+            selectedRole === 'teacher'
+              ? 'border-primary-7765DA bg-primary-7765DA/10'
+              : 'border-gray-300 bg-white'
           }`}
         >
           <h3 className="font-bold mb-2">I'm a Teacher</h3>
